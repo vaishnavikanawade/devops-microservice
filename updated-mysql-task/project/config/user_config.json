@@ -1,0 +1,7 @@
+{
+  "url" : "http://0.0.0.0",
+  "port" : "8080",
+  "adduser_endpoint" : "/adduser",
+  "showuser_endpoint" : "/showuser",
+  "deleteuser_endpoint" : "/deleteuser"
+}

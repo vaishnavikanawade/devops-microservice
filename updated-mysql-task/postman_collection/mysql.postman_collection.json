@@ -1,0 +1,124 @@
+{
+	"info": {
+		"_postman_id": "fac7d724-fe2a-4c35-b1aa-8e5e0f2066a6",
+		"name": "mysql",
+		"description": "DevOps Task ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "show user",
+			"item": [
+				{
+					"name": "GET Show user",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8080/showuser",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"showuser"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "add user",
+			"item": [
+				{
+					"name": "POST add user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "127.0.0.1:8080/adduser?id=18201&name=sanju&age=23&department=pucsd&subject=math ,cs",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"adduser"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "18201"
+								},
+								{
+									"key": "name",
+									"value": "sanju"
+								},
+								{
+									"key": "age",
+									"value": "23"
+								},
+								{
+									"key": "department",
+									"value": "pucsd"
+								},
+								{
+									"key": "subject",
+									"value": "math ,cs"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "delete user",
+			"item": [
+				{
+					"name": "DELETE delete user",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "127.0.0.1:8080/deleteuser?id=18101",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8080",
+							"path": [
+								"deleteuser"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "18101"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
